@@ -90,6 +90,10 @@ main {
     background-color: var(--light--grayish--blue--1);
 }
 
+.notifications-card.notifications-card--read {
+    background-color: var(--white);
+}
+
 .notifications-card img {
     width: 4.5rem;
     height: 4.5rem;
@@ -117,11 +121,30 @@ main {
     color: var(--dark--grayish--blue);
 }
 
+.notification__info .notification__content .notification__group {
+    font-weight: 800;
+    color: var(--blue);
+}
+
 .notification__info .notification__time {
     margin-top: 0.5rem;
 
     font-size: 1.35rem;
     color: var(--grayish--blue);
+}
+
+.notification__info .notification__private-message {
+    padding: 1rem;
+
+    margin-top: 1.2rem;
+
+    border-radius: 1rem;
+    border: 0.1rem solid var(--grayish--blue);
+}
+
+.notification__info .notification__private-message p {
+    font-size: 1.4rem;
+    color: var(--dark--grayish--blue);
 }
 
 .badge {
