@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,17 +11,38 @@
   <title>Notifications page</title>
 </head>
 <body>
-  
+  <header>
+    <div class="notifications">
+      <h3>Notifications</h3>
+      <div>3</div>
+    </div>
+    <p>Mark all as read</p>
+  </header>
+  <main>
+    <div class="notifications-card">
+      <img src="./assets/images/avatar-mark-webber.webp" alt="mark-webber-photo">
+      <div class="notification__info">
+        <p class="notification__content">
+          <span class="notification__person">Mark Webber</span> reacted to your recent post <span class="notification__topic">My first tournament today!</span>
+          <span class="badge"></span>
+        </p>
+        <p class="notification__time">1m ago</p>
+      </div>
+    </div>
 
-  <!-- Notifications 3
+    <div class="notifications-card">
+      <img src="./assets/images/avatar-angela-gray.webp" alt="angela-gray-photo">
+      <div class="notification__info">
+        <p class="notification__content">
+          <span class="notification__person">Angela Gray</span> followed you
+          <span class="badge"></span>
+        </p>
+        <p class="notification__time">5m ago</p>
+      </div>
+    </div>
+  </main>
 
-  Mark all as read
-
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
-
-  Angela Gray followed you
-  5m ago
+  <!-- 
 
   Jacob Thompson has joined your group Chess Club
   1 day ago

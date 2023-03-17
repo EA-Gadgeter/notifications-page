@@ -1,4 +1,6 @@
 :root {
+    --red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
     --white: hsl(0, 0%, 100%);
     --very--light--grayish--blue: hsl(210, 60%, 98%);
     --light--grayish--blue--1: hsl(211, 68%, 94%);
@@ -6,6 +8,8 @@
     --grayish--blue: hsl(219, 14%, 63%);
     --dark--grayish--blue: hsl(219, 12%, 42%);
     --very--dark--blue: hsl(224, 21%, 14%);
+
+    --padding-screen: 0 1.8rem;
 }
 
 * {
@@ -23,5 +27,114 @@ body {
     font-size: 1.6rem;
 
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
+
+header {
+    width: 100%;
+    height: 8rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: var(--padding-screen);
+
+    background-color: var(--white);
+}
+
+header .notifications {
+    display: flex;
+    align-items: center;
+}
+
+header .notifications h3 {
+    margin-right: 1rem;
+
+    color: var(--very--dark--blue);
+}
+
+header .notifications div {
+    display: grid;
+    place-items: center;
+
+    width: 3rem;
+    height: 2.5rem;
+
+    color: var(--white);
+
+    border-radius: 0.5rem;
+
+    background-color: var(--blue);
+}
+
+header p {
+    font-size: 1.4rem;
+    color: var(--dark--grayish--blue);
+}
+
+main {
+    width: 100%;
+
+    padding: var(--padding-screen);
+}
+
+.notifications-card {
+    display: flex;
+
+    padding: 1.5rem;
+
+    margin-bottom: 1.2rem;
+
+    border-radius: 1rem;
+    background-color: var(--light--grayish--blue--1);
+}
+
+.notifications-card img {
+    width: 4.5rem;
+    height: 4.5rem;
+
+    margin-right: 1rem;
+}
+
+.notifications-card .notification__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.notification__info .notification__content {
+    font-size: 1.4rem;
+    color: var(--dark--grayish--blue);
+}
+
+.notification__info .notification__content .notification__person {
+    font-weight: 800;
+    color: var(--very--dark--blue);
+}
+
+.notification__info .notification__content .notification__topic {
+    font-weight: 800;
+    color: var(--dark--grayish--blue);
+}
+
+.notification__info .notification__time {
+    margin-top: 0.5rem;
+
+    font-size: 1.35rem;
+    color: var(--grayish--blue);
+}
+
+.badge {
+    width: 1rem;
+    height: 1rem;
+
+    display: inline-block;
+
+    margin-left: 0.5rem;
+
+    border-radius: 50%;
+
+    background-color: var(--red);
+}
+
+
