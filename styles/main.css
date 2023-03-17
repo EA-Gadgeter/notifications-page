@@ -71,6 +71,12 @@ header .notifications div {
 header p {
     font-size: 1.4rem;
     color: var(--dark--grayish--blue);
+
+    cursor: pointer;
+}
+
+header p:hover {
+    color: var(--blue);
 }
 
 main {
@@ -114,16 +120,30 @@ main {
 .notification__info .notification__content .notification__person {
     font-weight: 800;
     color: var(--very--dark--blue);
+
+    cursor: pointer;
+}
+
+.notification__info .notification__content .notification__person:hover {
+    color: var(--blue);
 }
 
 .notification__info .notification__content .notification__topic {
     font-weight: 800;
     color: var(--dark--grayish--blue);
+
+    cursor: pointer;
+}
+
+.notification__info .notification__content .notification__topic:hover {
+    color: var(--blue);
 }
 
 .notification__info .notification__content .notification__group {
     font-weight: 800;
     color: var(--blue);
+
+    cursor: pointer;
 }
 
 .notification__info .notification__time {
@@ -134,17 +154,34 @@ main {
 }
 
 .notification__info .notification__private-message {
-    padding: 1rem;
+    padding: 1.5rem;
 
     margin-top: 1.2rem;
 
     border-radius: 1rem;
     border: 0.1rem solid var(--grayish--blue);
+
+    cursor: pointer;
+}
+
+.notification__info .notification__private-message:hover {
+    background-color: var(--light--grayish--blue--2);
+    border-color: var(--white);
 }
 
 .notification__info .notification__private-message p {
     font-size: 1.4rem;
     color: var(--dark--grayish--blue);
+}
+
+.notifications-card .notification__commented-picture {
+    width: 4.5rem;
+    height: 4.5rem;
+
+    margin-right: 0;
+    margin-left: 1.3rem;
+
+    cursor: pointer;
 }
 
 .badge {
@@ -158,6 +195,10 @@ main {
     border-radius: 50%;
 
     background-color: var(--red);
+}
+
+.not-show {
+    display: none;
 }
 
 
