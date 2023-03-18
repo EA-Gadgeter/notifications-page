@@ -35,8 +35,8 @@ Users should be able to:
 
 ## Links
 
-- [Add solution URL here](https://your-solution-url.com)
-- [Add live site URL here](https://your-live-site-url.com)
+- [GitHub solution URL](https://github.com/EA-Gadgeter/notifications-page)
+- [Live site URL](https://ea-gadgeter.github.io/notifications-page/)
 
 ## My process
 
@@ -50,5 +50,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Gadgeter](https://ea-gadgeter.github.io/Web-Portafolio/)
