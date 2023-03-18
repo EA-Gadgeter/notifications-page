@@ -201,6 +201,12 @@ main {
     display: none;
 }
 
+@media (width >= 480px) {
+    .notifications-card .notification__commented-picture {
+        margin-left: auto;
+    }
+}
+
 @media (width >= 900px) {
     body {
         height: 100vh;
